@@ -1,0 +1,19 @@
+.button {
+	width: 150px;
+	background-color: white;
+	border: none;
+	color: #3F3F3F;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: 'Lato';
+	font-weight: 300;
+	margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+	.button {
+		margin: auto;
+	}
+}

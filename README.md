@@ -1,68 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Setup
+1. `git clone git@gitlab.sfp.cc:sfp/sfp-frontend-assessment.git`
+2. `npm install`
+3. `npm run watch`
 
-## Available Scripts
+### Functionality of Application
+Here is how the application must function:
+- Genres to include: Action, Animation, Crime, Drama, Fantasy, Horror.
+- Movies should populate from the API.
+- When a genre or pagination button is clicked, a request should be sent to the API, and then repopulate the movie list.
 
-In the project directory, you can run:
+### General Requirements
+- Webpage must **NOT** use a CSS framework such as Bootstrap, Foundation, etc.
+- Webpage **must be responsive**. Mobile designs are provided.
+- You may complete the assessment in any frontend framework (or lack of).
+- We have provided boilerplate code to help you get started (we are using Vue.js), you can scrap it all or build off of it.
 
-### `yarn start`
+### API Use
+First, you must [login](https://www.themoviedb.org/login) or [create an account](https://www.themoviedb.org/account/signup) with TMDb.
+To get TMDb API token, visit the API tab in your [account settings](https://www.themoviedb.org/settings/api).
+Once you have landed on the API details page, click to generate an API key at the bottom of the page.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You will need to figure out on your own how to use the API token, as well as what route you will need to use to generate the grid of movies.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Style Guidelines
+- Grid has a max-width of 1200px
+- Please match the designs provided in the "Design Files" folder as close as possible.
+- *PLEASE NOTE: The design files are just examples and only uses one movie title. Your application should show multiple movie titles from the API.*
 
-### `yarn test`
+### Colors
+- Gray (Gray text): #b8b8b8 
+- Black: #3f3f3f
+- Light Gray (The gray background on pagination): #009fd9
+- Blue (The blue background on pagination): #009fd9
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Font Sizes
+- Navigation: 16px
+- Main Title (H1): 72px
+- Subheading (H2): 62px
+- Button: 18px
+- Paragraph Text: 16px
+- Movie Titles: 18px
+- Movie Ratings: 14px
+- Pagination: 16px
 
-### `yarn build`
+### Font Families
+- Navigation (Current Genre): Lato Black
+- Navigation (Other Genres): Lato Regular
+- Main Title (H1): Lato Regular
+- Subheading (H2): Lato Black
+- Button: Lato Regular
+- Paragraph Text: Lato Regular
+- Movie Titles: Lato Bold
+- Movie Ratings: Lato Regular
+- Pagination: Lato Regular
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### When complete
+- Send an email to meeks@sfp.net containing a zipped file of the project or link to a Github repo.

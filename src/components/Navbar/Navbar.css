@@ -1,0 +1,170 @@
+.NavbarItems {
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: space-between;
+	height: 65px;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+}
+
+.NavbarItemsMobile {
+	display: none;
+}
+
+.menu {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 20px;
+}
+
+.logo {
+	justify-content: flex-start;
+	width: 75px;
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+	margin-left: 20px;
+}
+
+.menu-icon-div {
+	display: none;
+}
+
+.genres {
+	justify-content: flex-end;
+	margin-right: 20px;
+}
+
+.nav-menu {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+.active-nav {
+	display: none;
+}
+
+.nav-links {
+	font-family: 'Lato';
+	font-weight: 900;
+	color: white;
+	margin-right: 20px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.genre-list-items {
+	margin-right: 20px;
+	margin-top: 3%;
+}
+
+.genre-list-items:last-of-type {
+	margin-right: 0px;
+}
+
+.title-item {
+	color: white;
+	font-family: 'Lato';
+	font-weight: 300;
+}
+
+.title-item-selected {
+	font-weight: 900;
+}
+
+@media only screen and (max-width: 600px) {
+	.NavbarItems {
+		background-color: rgba(0, 0, 0, 0.5);
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		height: 65px;
+		align-items: center;
+		position: absolute;
+		z-index: 2;
+	}
+
+	.NavbarItemsMobile {
+		background-color: #3F3F3F;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		z-index: 3;
+	}
+
+	.logo-menu-icon {
+		width: 100vw;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		position: absolute;
+	}
+
+	.logo-menu-icon-mobile {
+		width: 100vw;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		position: absolute;
+		margin-top: 15px;
+	}
+
+	.logo {
+		margin-left: 30px;
+	}
+
+	.menu {
+		margin-top: 90px;
+	}
+
+	.genres {
+		margin-left: 40px;
+	}
+
+	.genre-list-items {
+		padding-bottom: 10px;
+	}
+
+	.nav-menu {
+		display: none;
+	}
+	
+	.active-nav {
+		color: rebeccapurple;
+		display: flex;
+		flex-direction: column;
+		list-style-type: none;
+		padding-left: 0px;
+		margin-top: 20px;
+	}
+
+	.menu-icon-div {
+		display: flex;
+		margin-right: 50px;
+	}
+	
+	#menu-icon {
+		color: white;
+		font-size: 30px;
+	}
+
+	.title-item {
+		color: white;
+		opacity: .5;
+		font-family: 'Lato';
+		font-weight: 900;
+	}
+
+	.title-item-selected {
+		opacity: 1;
+	}
+}
