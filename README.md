@@ -1,7 +1,4 @@
-### Setup
-1. `git clone git@gitlab.sfp.cc:sfp/sfp-frontend-assessment.git`
-2. `npm install`
-3. `npm run watch`
+
 
 ### Functionality of Application
 Here is how the application must function:
@@ -53,6 +50,3 @@ You will need to figure out on your own how to use the API token, as well as wha
 - Movie Titles: Lato Bold
 - Movie Ratings: Lato Regular
 - Pagination: Lato Regular
-
-### When complete
-- Send an email to meeks@sfp.net containing a zipped file of the project or link to a Github repo.
